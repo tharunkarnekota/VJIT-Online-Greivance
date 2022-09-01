@@ -1,0 +1,49 @@
+
+
+
+
+.three{
+    color: #00AFB9
+}
+
+.two:hover{
+    background-color: rgb(133, 236, 240);
+    font-size: large;
+    overflow: hidden;
+    
+}
+
+.flex-item-left2 {
+    border-radius: 20px;
+    padding: 5px;
+    flex: 30%;
+    text-align: right;
+    color: #D62828;
+  }
+  
+  .flex-item-right2 {
+    border-radius: 20px;
+    padding: 5px;
+    flex: 30%;
+    text-align: left;
+    color: #656D4A;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 500px) {
+    .flex-item-left2 { 
+        text-align: right;
+        flex: 20%;
+    }
+    .flex-item-right2{
+        text-align: left;
+        flex: 20%;
+    }
+    h4{
+        font-size: 15px;
+    }
+  }

@@ -1,0 +1,16 @@
+.div1 {
+    float: left;
+    padding: 15px; 
+    width: 50%;
+    text-align: right;
+ 
+  }
+
+  .div2 {
+    
+    padding: 15px; 
+    color: tomato;
+    text-align: left;
+    width: 90%;
+    
+  }

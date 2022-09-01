@@ -1,0 +1,11 @@
+.textareaa{
+    width:25rem
+}
+
+
+@media screen and (max-width: 400px){
+    
+    .textareaa{
+        width:15rem
+    }
+}

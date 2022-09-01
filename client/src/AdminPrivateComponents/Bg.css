@@ -1,0 +1,20 @@
+.con2{
+    background: url("./rose.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
+
+.nine:hover{
+   
+    font-size: large;
+    overflow: hidden;
+    background: "rgba(255,255,255,0.9)"
+    
+}
+
+
+a:hover{
+    color:orange
+}

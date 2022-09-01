@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Teko", sans-serif; 
+    
+  }
+
+
+  
+  .flex-item-left {
+    border-radius: 20px;
+    padding: 10px;
+    flex: 30%;
+    
+  }
+  
+  .flex-item-right {
+    border-radius: 20px;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    flex: 30%;
+    text-align: center;
+    align-items: center;
+  }
+
+ 
+
+  .flex-item-right:hover{
+    background-color: rgb(241, 198, 119);
+    
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 500px) {
+    .flex-item-right, .flex-item-left { 
+
+      align-items: center;
+    }
+  }

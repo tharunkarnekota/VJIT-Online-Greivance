@@ -1,0 +1,27 @@
+.widthta{
+    width: 30%;
+    border-radius: 25%;
+}
+
+.fantasyy{
+    font-family:fantasy;
+    
+}
+
+.mobile2{
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .widthta { 
+        width: 90%;
+    }
+
+    .mobile{
+        width:180px
+    }
+
+    .mobile2{
+        width:230px
+    }
+  }

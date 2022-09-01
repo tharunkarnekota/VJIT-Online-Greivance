@@ -1,0 +1,18 @@
+.con2{
+    background-image: url("./rose.png");
+    width: 100vh;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -2;
+    height: auto;
+    width: auto;  
+}
+
+.nine:hover{
+   
+    font-size: large;
+    overflow: hidden;
+    background: "rgba(255,255,255,0.9)"
+    
+}
